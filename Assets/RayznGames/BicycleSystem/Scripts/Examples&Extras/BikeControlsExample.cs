@@ -21,7 +21,7 @@ namespace rayzngames
             bicycle.horizontalInput = Input.GetAxis("Horizontal");
            
             
-             Debug.Log("Space Pressed");
+             //Debug.Log("Space Pressed");
              BrakingInput();
             
                 
