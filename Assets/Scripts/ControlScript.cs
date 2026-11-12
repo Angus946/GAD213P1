@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ControlScript : MonoBehaviour
 {
-
+    public GameObject Timer;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,6 +23,8 @@ public class ControlScript : MonoBehaviour
         if (Input.GetKey(KeyCode.F))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Timer.SetActive(false);
+            Timer.SetActive(true);
         }
     }
 }

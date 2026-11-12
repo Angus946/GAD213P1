@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
+using TMPro;
 
 public class BoostBaseScript : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class BoostBaseScript : MonoBehaviour
     public SpeedBoostScript speedBoostScript;
     public JumpBoostScript jumpBoostScript;
     public ControlBoostScript controlBoostScript;
+    public TMP_Text TextBox;
+    
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -75,5 +78,6 @@ public class BoostBaseScript : MonoBehaviour
         speedBoostScript.enabled = false;
         jumpBoostScript.enabled = false;
         controlBoostScript.enabled = false;
+        TextBox.text = "Boost Available: none";
     }
 }
