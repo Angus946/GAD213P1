@@ -8,6 +8,9 @@ public class PickBoostScript : MonoBehaviour
     public SpeedBoostScript SpeedBoostScript;
     public JumpBoostScript JumpBoostScript;
     public ControlBoostScript ControlBoostScript;
+    public GameObject SpeedBoostIcon;
+    public GameObject JumpBoostIcon;
+    public GameObject ControlBoostIcon;
 
     public bool boostHeld;
     public string[] boostTypes;
@@ -54,6 +57,7 @@ public class PickBoostScript : MonoBehaviour
                     JumpBoostScript.enabled = false;
                     ControlBoostScript.enabled = false;
                     m_Text.text = "Boost Available: Speed";
+                    SpeedBoostIcon.transform.position = new Vector3(300, 0, 0);
                     return;
                 }
                 if (boostTypes[pickBoost] == "jump")
@@ -63,6 +67,7 @@ public class PickBoostScript : MonoBehaviour
                     SpeedBoostScript.enabled = false;
                     ControlBoostScript.enabled = false;
                     m_Text.text = "Boost Available: Jump";
+                    JumpBoostIcon.transform.position = new Vector3(300, 0, 0);
                     return;
                 }
                 if (boostTypes[pickBoost] == "control")
@@ -72,6 +77,7 @@ public class PickBoostScript : MonoBehaviour
                     SpeedBoostScript.enabled = false;
                     JumpBoostScript.enabled = false;
                     m_Text.text = "Boost Available: Control";
+                    ControlBoostIcon.transform.position = new Vector3(300, 0, 0);
                     return;
                 }
                 
