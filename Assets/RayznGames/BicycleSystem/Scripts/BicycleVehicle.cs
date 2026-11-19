@@ -29,10 +29,25 @@ namespace rayzngames
 		[Tooltip("The braking power used on the rear wheel, the moment braking is enabled. (0 = no braking / 1 = brakeforce)")]
 		[Range(0, 1)] public float rearBrakePower = 1f;
 
-		[Tooltip("Adjust this paameter to add an offset to the center of gravity")]
+
+        [Tooltip("Adjust this paameter to add an offset to the center of gravity")]
 		public Vector3 COG;
 
-		[Space(20)]
+		#region Angus Code
+		[Space(10)]
+		[Header("My Variables")]
+		[Space(5)]
+		[Header("Slide Coefficient")]
+		private float _slideCoefficient = 1.1f;
+		public float slideCoefficient
+		{
+			get { return _slideCoefficient;  }
+			set { _slideCoefficient = value; }
+		}
+
+        #endregion Angus Code
+
+        [Space(20)]
 		[Header("Steering")]
 		[Space(5)]
 		[Tooltip("Defines the maximum steering angle for the bike, when horizontal input is provided")]
@@ -132,7 +147,8 @@ namespace rayzngames
 			}
 			UpdateWheels();
 			EmitTrail();
-			Speed_O_Meter();			
+			Speed_O_Meter();	
+			Debug.Log(slideCoefficient);
 		}
 
 		public void InControl(bool state)
@@ -462,20 +478,20 @@ namespace rayzngames
 			string frontGrip = "";
 			string rearGrip = "";
 			//Front Grip/Slip
-			if (frontFWD < 1.1f && frontFWD > -1.1f || frontSideCoeff < 1.1f && frontSideCoeff > -1.1f)
+			if (frontFWD < slideCoefficient && frontFWD > -slideCoefficient || frontSideCoeff < slideCoefficient && frontSideCoeff > -slideCoefficient)
 			{
 				frontGrip = "Grip";
 			}
-			if (frontFWD > 1.1f || frontFWD < -1.1f || frontSideCoeff > 1.1f || frontSideCoeff < -1.1f) 
+			if (frontFWD > slideCoefficient || frontFWD < -slideCoefficient || frontSideCoeff > slideCoefficient || frontSideCoeff < -slideCoefficient) 
 			{
 				frontGrip = "Slip"; 
 			}
 			//Rear Grip/Slip
-			if (rearFWD < 1.1f & rearFWD > -1.1f || rearSideCoeff < 1.1f && rearSideCoeff > -1.1f)
+			if (rearFWD < slideCoefficient & rearFWD > -slideCoefficient || rearSideCoeff < slideCoefficient && rearSideCoeff > -slideCoefficient)
 			{
 				rearGrip = "Grip";
 			}
-			if (rearFWD > 1.1f || rearFWD < -1.1f || rearSideCoeff > 1.1f || rearSideCoeff < -1.1f) 
+			if (rearFWD > slideCoefficient || rearFWD < -slideCoefficient || rearSideCoeff > slideCoefficient || rearSideCoeff < -slideCoefficient) 
 			{ 
 				rearGrip = "Slip"; 
 			}

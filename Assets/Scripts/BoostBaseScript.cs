@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
 using TMPro;
+using UnityEngine.UI;
 
 public class BoostBaseScript : MonoBehaviour
 {
@@ -18,6 +19,12 @@ public class BoostBaseScript : MonoBehaviour
     public JumpBoostScript jumpBoostScript;
     public ControlBoostScript controlBoostScript;
     public TMP_Text TextBox;
+    public GameObject SpeedBoostIcon;
+    public GameObject JumpBoostIcon;
+    public GameObject ControlBoostIcon;
+    public Image SpeedBoostIconImage;
+    public Image JumpBoostIconImage;
+    public Image ControlBoostIconImage;
     
 
 
@@ -62,7 +69,9 @@ public class BoostBaseScript : MonoBehaviour
 
     protected virtual void BoostFunc()
     {
-
+        SpeedBoostIconImage.color = Color.black;
+        JumpBoostIconImage.color = Color.black;
+        ControlBoostIconImage.color = Color.black;
     }
 
     protected IEnumerator BoostTimer()
@@ -78,6 +87,9 @@ public class BoostBaseScript : MonoBehaviour
         speedBoostScript.enabled = false;
         jumpBoostScript.enabled = false;
         controlBoostScript.enabled = false;
+        SpeedBoostIcon.transform.position = new Vector3(0, -300, 0);
+        JumpBoostIcon.transform.position = new Vector3(0, -300, 0);
+        ControlBoostIcon.transform.position = new Vector3(0, -300, 0);
         TextBox.text = "Boost Available: none";
     }
 }

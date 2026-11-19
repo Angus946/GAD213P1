@@ -488,11 +488,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 55730720}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 318, y: -474}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &50835762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -551,6 +551,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -694,7 +695,7 @@ RectTransform:
   - {fileID: 1114505537}
   - {fileID: 1825269537}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.398, y: -0.187, z: 0.342}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1689,6 +1690,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1978,11 +1980,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 55730720}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 515, y: -682}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 514.99994, y: -291.99994}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1058235430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2003,7 +2005,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 09822f5683348534893b1a1e80c9c9fd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2271,11 +2273,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 55730720}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 186, y: -699}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 185.99997, y: -311}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1114505538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2296,7 +2298,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: ab8fdc0826e02784d932adacc3df0911, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2949,6 +2951,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -3477,13 +3480,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658718489}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalRotation: {x: -0.08132977, y: 0, z: 0, w: 0.9966873}
+  m_LocalPosition: {x: 0, y: 10.7, z: -0.07}
   m_LocalScale: {x: 10, y: 20, z: 10}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 151396412}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -9.33, y: 0, z: 0}
 --- !u!65 &1658718491
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3812,11 +3815,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 55730720}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 483}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1825269538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3875,6 +3878,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -4069,11 +4073,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 55730720}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 392, y: -686}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 300, y: -296}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1934335687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4094,7 +4098,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 71030d5aab4ee724eb90c95799332f3b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4613,7 +4617,7 @@ Transform:
   m_GameObject: {fileID: 1281352851254669409}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 21, z: 0}
+  m_LocalPosition: {x: 0, y: 22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11224,6 +11228,13 @@ MonoBehaviour:
   jumpBoostScript: {fileID: 7853310965922188011}
   controlBoostScript: {fileID: 7853310965922188010}
   TextBox: {fileID: 50835762}
+  SpeedBoostIcon: {fileID: 1058235428}
+  JumpBoostIcon: {fileID: 1934335685}
+  ControlBoostIcon: {fileID: 1114505536}
+  SpeedBoostIconImage: {fileID: 1058235430}
+  JumpBoostIconImage: {fileID: 1934335687}
+  ControlBoostIconImage: {fileID: 1114505538}
+  Bike: {fileID: 3997681252344623644}
 --- !u!114 &7853310965922188011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11241,7 +11252,13 @@ MonoBehaviour:
   jumpBoostScript: {fileID: 7853310965922188011}
   controlBoostScript: {fileID: 7853310965922188010}
   TextBox: {fileID: 50835762}
-  boostForce: 2000
+  SpeedBoostIcon: {fileID: 1058235428}
+  JumpBoostIcon: {fileID: 1934335685}
+  ControlBoostIcon: {fileID: 1114505536}
+  SpeedBoostIconImage: {fileID: 1058235430}
+  JumpBoostIconImage: {fileID: 1934335687}
+  ControlBoostIconImage: {fileID: 1114505538}
+  boostForce: 1500
 --- !u!114 &7853310965922188012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11259,6 +11276,12 @@ MonoBehaviour:
   jumpBoostScript: {fileID: 7853310965922188011}
   controlBoostScript: {fileID: 7853310965922188010}
   TextBox: {fileID: 50835762}
+  SpeedBoostIcon: {fileID: 1058235428}
+  JumpBoostIcon: {fileID: 1934335685}
+  ControlBoostIcon: {fileID: 1114505536}
+  SpeedBoostIconImage: {fileID: 1058235430}
+  JumpBoostIconImage: {fileID: 1934335687}
+  ControlBoostIconImage: {fileID: 1114505538}
   boostForce: 1000
 --- !u!114 &7853310965922188013
 MonoBehaviour:
@@ -11276,6 +11299,9 @@ MonoBehaviour:
   SpeedBoostScript: {fileID: 7853310965922188012}
   JumpBoostScript: {fileID: 7853310965922188011}
   ControlBoostScript: {fileID: 7853310965922188010}
+  SpeedBoostIcon: {fileID: 1058235428}
+  JumpBoostIcon: {fileID: 1934335685}
+  ControlBoostIcon: {fileID: 1114505536}
   boostHeld: 0
   boostTypes: []
 --- !u!4 &8006445595529791693
