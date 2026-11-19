@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - BoostItem
+  - Goal
   layers:
   - Default
   - TransparentFX
