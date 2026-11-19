@@ -1006,7 +1006,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Reach the <color=Yellow>Yellow Cube</color> to beat the level
+  m_text: 'touch all the <color=Yellow>Yellow Cubes</color> to beat the level
 
 
     Touch

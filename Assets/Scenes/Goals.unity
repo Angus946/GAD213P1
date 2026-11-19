@@ -10768,7 +10768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Text: {fileID: 1285446458}
-  m_Vehicle: {fileID: 0}
+  m_Vehicle: {fileID: 3997681252344623644}
   m_Speed: 0
 --- !u!114 &7853310965922188010
 MonoBehaviour:
@@ -10787,13 +10787,13 @@ MonoBehaviour:
   jumpBoostScript: {fileID: 7853310965922188011}
   controlBoostScript: {fileID: 7853310965922188010}
   TextBox: {fileID: 50835762}
-  SpeedBoostIcon: {fileID: 0}
-  JumpBoostIcon: {fileID: 0}
-  ControlBoostIcon: {fileID: 0}
-  SpeedBoostIconImage: {fileID: 0}
-  JumpBoostIconImage: {fileID: 0}
-  ControlBoostIconImage: {fileID: 0}
-  Bike: {fileID: 0}
+  SpeedBoostIcon: {fileID: 1058235428}
+  JumpBoostIcon: {fileID: 1934335685}
+  ControlBoostIcon: {fileID: 1114505536}
+  SpeedBoostIconImage: {fileID: 1058235430}
+  JumpBoostIconImage: {fileID: 1934335687}
+  ControlBoostIconImage: {fileID: 1114505538}
+  Bike: {fileID: 3997681252344623644}
 --- !u!114 &7853310965922188011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10811,12 +10811,12 @@ MonoBehaviour:
   jumpBoostScript: {fileID: 7853310965922188011}
   controlBoostScript: {fileID: 7853310965922188010}
   TextBox: {fileID: 50835762}
-  SpeedBoostIcon: {fileID: 0}
-  JumpBoostIcon: {fileID: 0}
-  ControlBoostIcon: {fileID: 0}
-  SpeedBoostIconImage: {fileID: 0}
-  JumpBoostIconImage: {fileID: 0}
-  ControlBoostIconImage: {fileID: 0}
+  SpeedBoostIcon: {fileID: 1058235428}
+  JumpBoostIcon: {fileID: 1934335685}
+  ControlBoostIcon: {fileID: 1114505536}
+  SpeedBoostIconImage: {fileID: 1058235430}
+  JumpBoostIconImage: {fileID: 1934335687}
+  ControlBoostIconImage: {fileID: 1114505538}
   boostForce: 2000
 --- !u!114 &7853310965922188012
 MonoBehaviour:
@@ -10835,12 +10835,12 @@ MonoBehaviour:
   jumpBoostScript: {fileID: 7853310965922188011}
   controlBoostScript: {fileID: 7853310965922188010}
   TextBox: {fileID: 50835762}
-  SpeedBoostIcon: {fileID: 0}
-  JumpBoostIcon: {fileID: 0}
-  ControlBoostIcon: {fileID: 0}
-  SpeedBoostIconImage: {fileID: 0}
-  JumpBoostIconImage: {fileID: 0}
-  ControlBoostIconImage: {fileID: 0}
+  SpeedBoostIcon: {fileID: 1058235428}
+  JumpBoostIcon: {fileID: 1934335685}
+  ControlBoostIcon: {fileID: 1114505536}
+  SpeedBoostIconImage: {fileID: 1058235430}
+  JumpBoostIconImage: {fileID: 1934335687}
+  ControlBoostIconImage: {fileID: 1114505538}
   boostForce: 1000
 --- !u!114 &7853310965922188013
 MonoBehaviour:
@@ -10858,9 +10858,9 @@ MonoBehaviour:
   SpeedBoostScript: {fileID: 7853310965922188012}
   JumpBoostScript: {fileID: 7853310965922188011}
   ControlBoostScript: {fileID: 7853310965922188010}
-  SpeedBoostIcon: {fileID: 0}
-  JumpBoostIcon: {fileID: 0}
-  ControlBoostIcon: {fileID: 0}
+  SpeedBoostIcon: {fileID: 1058235428}
+  JumpBoostIcon: {fileID: 1934335685}
+  ControlBoostIcon: {fileID: 1114505536}
   boostHeld: 0
   boostTypes: []
 --- !u!114 &7853310965922188014
