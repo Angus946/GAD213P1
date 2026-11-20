@@ -90,6 +90,9 @@ public class BoostBaseScript : MonoBehaviour
         SpeedBoostIcon.transform.position = new Vector3(0, -300, 0);
         JumpBoostIcon.transform.position = new Vector3(0, -300, 0);
         ControlBoostIcon.transform.position = new Vector3(0, -300, 0);
+        SpeedBoostIconImage.color = Color.white;
+        JumpBoostIconImage.color = Color.white;
+        ControlBoostIconImage.color = Color.white;
         TextBox.text = "Boost Available: none";
     }
 }

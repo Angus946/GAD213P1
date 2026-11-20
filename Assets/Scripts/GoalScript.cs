@@ -10,7 +10,7 @@ public class GoalScript : MonoBehaviour
     public TMP_Text text;
     public GoalSpawnScript GoalSpawn;
     public bool randomSpawn = true;
-    private int goals;
+    public int goals;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -54,17 +54,22 @@ public class GoalScript : MonoBehaviour
     {
         goalsHit++;
         text.text = "Zones Reached: " + goalsHit.ToString();
-        if (!randomSpawn)
+        
+        if (randomSpawn)
+        {
+            if (goalsHit >= GoalSpawn.n_Goals)
+            {
+                Time.timeScale = 0.0000001f;
+            }
+        }
+        else if (!randomSpawn)
         {
             if (goalsHit >= goals)
             {
                 Time.timeScale = 0.0000001f;
             }
         }
-        if (goalsHit >= GoalSpawn.n_Goals)
-        {
-            Time.timeScale = 0.0000001f;
-        }
+        
     }
 
     

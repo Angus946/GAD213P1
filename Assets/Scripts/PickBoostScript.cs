@@ -57,7 +57,9 @@ public class PickBoostScript : MonoBehaviour
                     JumpBoostScript.enabled = false;
                     ControlBoostScript.enabled = false;
                     m_Text.text = "Boost Available: Speed";
-                    SpeedBoostIcon.transform.position = new Vector3(300, 0, 0);
+                    SpeedBoostIcon.transform.position = new Vector3(1550, 25, 0);
+                    JumpBoostIcon.transform.position = new Vector3(1550, -200, 0);
+                    ControlBoostIcon.transform.position = new Vector3(1550,- 200, 0);
                     return;
                 }
                 if (boostTypes[pickBoost] == "jump")
@@ -67,7 +69,9 @@ public class PickBoostScript : MonoBehaviour
                     SpeedBoostScript.enabled = false;
                     ControlBoostScript.enabled = false;
                     m_Text.text = "Boost Available: Jump";
-                    JumpBoostIcon.transform.position = new Vector3(300, 0, 0);
+                    JumpBoostIcon.transform.position = new Vector3(1550, 25, 0);
+                    SpeedBoostIcon.transform.position = new Vector3(1550, -200, 0);
+                    ControlBoostIcon.transform.position = new Vector3(1550, -200, 0);
                     return;
                 }
                 if (boostTypes[pickBoost] == "control")
@@ -77,7 +81,9 @@ public class PickBoostScript : MonoBehaviour
                     SpeedBoostScript.enabled = false;
                     JumpBoostScript.enabled = false;
                     m_Text.text = "Boost Available: Control";
-                    ControlBoostIcon.transform.position = new Vector3(300, 0, 0);
+                    ControlBoostIcon.transform.position = new Vector3(1550, 25, 0);
+                    SpeedBoostIcon.transform.position = new Vector3(1550, -200, 0);
+                    JumpBoostIcon.transform.position = new Vector3(1550, -200, 0);
                     return;
                 }
                 
