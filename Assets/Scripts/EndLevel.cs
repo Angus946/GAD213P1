@@ -21,7 +21,7 @@ public class EndLevel : MonoBehaviour
         {
             if (other.CompareTag("Player"))
             {
-                Time.timeScale = 0.001f;
+                Time.timeScale = 0.0000001f;
             }
         }
     }
